@@ -1,0 +1,312 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1199pt" height="1460pt" viewBox="0.00 0.00 1198.59 1460.4">
+<g id="graph0" class="graph" transform="translate(53.14592603303862,1444.6413771942705) scale(1.0000000000000004)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-1456.4 1194.59,-1456.4 1194.59,4 -4,4"/>
+<!-- t --><g id="clust1" class="cluster" data-name="cluster" data-comment="t">
+
+<polygon fill="lightgrey" stroke="lightgrey" points="134.29,-1165.8 134.29,-1371.8 274.29,-1371.8 274.29,-1165.8 134.29,-1165.8"/>
+<text text-anchor="middle" x="204.29" y="-1355.2" font-family="Times,serif" font-size="14.00">For each year</text>
+</g>
+<g id="node1" class="node" pointer-events="visible" data-name="table" data-comment="t">
+
+<polygon fill="lavender" stroke="lavender" points="234.03,-1339 150.54,-1339 150.54,-1303 234.03,-1303 234.03,-1339"/>
+<text text-anchor="middle" x="192.29" y="-1316.8" font-family="Times,serif" font-size="14.00">Score Table</text>
+</g>
+<!-- tr -->
+<!-- table&#45;&gt;t -->
+<g id="edge1" class="edge" data-name="table-&gt;trans" data-comment="table-&gt;t">
+
+<path fill="none" stroke="black" d="M193.93,-1302.58C195.91,-1281.65 199.25,-1246.23 201.6,-1221.3"/>
+<polygon fill="black" stroke="black" points="205.07,-1221.8 202.52,-1211.52 198.1,-1221.14 205.07,-1221.8"/>
+<text text-anchor="middle" x="238.43" y="-1232" font-family="Times,serif" font-size="14.00">Python script</text>
+</g>
+<g id="node2" class="node" pointer-events="visible" data-name="trans" data-comment="table-&gt;t">
+
+<polygon fill="lavender" stroke="lavender" points="266.1,-1209.8 142.48,-1209.8 142.48,-1173.8 266.1,-1173.8 266.1,-1209.8"/>
+<text text-anchor="middle" x="204.29" y="-1187.6" font-family="Times,serif" font-size="14.00">List of transactions</text>
+</g>
+
+<!-- j -->
+<g id="node3" class="node" pointer-events="visible" data-name="join" data-comment="j">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="318.57,-1136.8 147.91,-1136.8 104.01,-1100.8 274.67,-1100.8 318.57,-1136.8"/>
+<text text-anchor="middle" x="211.29" y="-1114.6" font-family="Times,serif" font-size="14.00">Merge all tables</text>
+</g>
+<!-- tr -->
+<g id="edge15" class="edge" data-name="trans-&gt;join" data-comment="tr">
+
+<path fill="none" stroke="black" d="M205.98,-1173.61C206.74,-1165.94 207.65,-1156.69 208.5,-1148.04"/>
+<polygon fill="black" stroke="black" points="211.96,-1148.63 209.46,-1138.34 205,-1147.94 211.96,-1148.63"/>
+</g>
+<!-- Q -->
+<!-- join&#45;&gt;Q -->
+<g id="edge16" class="edge" data-name="join-&gt;all" data-comment="join-&gt;Q">
+
+<path fill="none" stroke="black" d="M216.62,-1100.65C220.3,-1088.84 225.26,-1072.87 229.52,-1059.21"/>
+<polygon fill="black" stroke="black" points="232.8,-1060.44 232.42,-1049.86 226.11,-1058.36 232.8,-1060.44"/>
+<text text-anchor="middle" x="277.07" y="-1070.2" font-family="Times,serif" font-size="14.00">Import into QGIS</text>
+</g>
+<!-- QGIS -->
+
+<!-- a -->
+<g id="node4" class="node" pointer-events="visible" data-name="all" data-comment="a">
+
+<polygon fill="lavender" stroke="lavender" points="357.55,-1048 119.03,-1048 119.03,-1012 357.55,-1012 357.55,-1048"/>
+<text text-anchor="middle" x="238.29" y="-1025.8" font-family="Times,serif" font-size="14.00">List of all score transactions in all years</text>
+</g>
+
+<!-- c -->
+<g id="node5" class="node" pointer-events="visible" data-name="countries" data-comment="c">
+
+<polygon fill="lavender" stroke="lavender" points="814.63,-1452.4 657.95,-1452.4 657.95,-1416.4 814.63,-1416.4 814.63,-1452.4"/>
+<text text-anchor="middle" x="736.29" y="-1430.2" font-family="Times,serif" font-size="14.00">Shapefile of all countries</text>
+</g>
+<!-- c -->
+<!-- calculate -->
+<g id="node8" class="node" pointer-events="visible" data-name="calculate">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="938.21,-1136.8 613.82,-1136.8 530.37,-1100.8 854.76,-1100.8 938.21,-1136.8"/>
+<text text-anchor="middle" x="734.29" y="-1114.6" font-family="Times,serif" font-size="14.00">Calculate coordinates of centroid</text>
+</g><g id="edge11" class="edge" data-name="all-&gt;joingive" data-comment="calculate">
+
+<path fill="none" stroke="black" d="M238.29,-1011.65C238.29,-1004.45 238.29,-995.67 238.29,-986.66"/>
+<polygon fill="black" stroke="black" points="241.79,-986.72 238.29,-976.72 234.79,-986.72 241.79,-986.72"/>
+</g>
+
+<!-- n -->
+<!-- names -->
+<g id="node9" class="node" pointer-events="visible" data-name="names">
+
+<polygon fill="lavender" stroke="lavender" points="847.45,-1048 619.13,-1048 619.13,-1012 847.45,-1012 847.45,-1048"/>
+<text text-anchor="middle" x="733.29" y="-1025.8" font-family="Times,serif" font-size="14.00">List of countries and their coordinates</text>
+</g><g id="edge13" class="edge" data-name="all-&gt;joinrec" data-comment="names">
+
+<path fill="none" stroke="black" d="M329.66,-1011.54C396.36,-998.79 488.63,-981.16 568.11,-965.97"/>
+<polygon fill="black" stroke="black" points="568.59,-969.44 577.75,-964.12 567.28,-962.56 568.59,-969.44"/>
+</g>
+<g id="edge2" class="edge" data-name="countries-&gt;merge" data-comment="names">
+
+<path fill="none" stroke="black" d="M736.29,-1415.99C736.29,-1408.86 736.29,-1400.1 736.29,-1390.82"/>
+<polygon fill="black" stroke="black" points="739.79,-1390.85 736.29,-1380.85 732.79,-1390.85 739.79,-1390.85"/>
+</g>
+<!-- j -->
+<!-- joingive -->
+<!-- joingive -->
+<g id="node10" class="node" pointer-events="visible" data-name="joingive">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="476.37,-975.1 97.64,-975.1 0.21,-891.7 378.94,-891.7 476.37,-975.1"/>
+<text text-anchor="middle" x="238.29" y="-937.6" font-family="Times,serif" font-size="14.00">Join fields one to one where the point </text>
+<text text-anchor="middle" x="238.29" y="-920.8" font-family="Times,serif" font-size="14.00">giver matches the country name</text>
+</g><g id="node7" class="node" pointer-events="visible" data-name="changenames" data-comment="joingive">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="1055.22,-1209.8 546.28,-1209.8 415.36,-1173.8 924.29,-1173.8 1055.22,-1209.8"/>
+<text text-anchor="middle" x="735.29" y="-1187.6" font-family="Times,serif" font-size="14.00">Make sure country names exactly match list of scores</text>
+</g><g id="node6" class="node" pointer-events="visible" data-name="merge" data-comment="joingive">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="1190.39,-1379.3 468.02,-1379.3 282.19,-1262.7 1004.56,-1262.7 1190.39,-1379.3"/>
+<text text-anchor="middle" x="736.29" y="-1333.6" font-family="Times,serif" font-size="14.00">Merge/split countries that have changed their </text>
+<text text-anchor="middle" x="736.29" y="-1316.8" font-family="Times,serif" font-size="14.00">borders and assign each country a beginning and end date for its existence, </text>
+<text text-anchor="middle" x="736.29" y="-1300" font-family="Times,serif" font-size="14.00">so that maps for each year are reflective of borders at the time.</text>
+</g>
+
+<!-- names&#45;&gt;joingive -->
+<g id="edge12" class="edge" data-name="names-&gt;joingive">
+
+<path fill="none" stroke="black" d="M641.92,-1011.54C591.92,-1001.98 527.54,-989.68 464.95,-977.72"/>
+<polygon fill="black" stroke="black" points="465.67,-974.29 455.19,-975.85 464.36,-981.17 465.67,-974.29"/>
+</g><g id="edge3" class="edge" data-name="merge-&gt;changenames" data-comment="names-&gt;joingive">
+
+<path fill="none" stroke="black" d="M735.84,-1262.35C735.72,-1248.16 735.61,-1233.56 735.51,-1221.43"/>
+<polygon fill="black" stroke="black" points="739.02,-1221.71 735.44,-1211.73 732.02,-1221.76 739.02,-1221.71"/>
+</g>
+<g id="edge5" class="edge" data-name="calculate-&gt;names" data-comment="names-&gt;joingive">
+
+<path fill="none" stroke="black" d="M734.09,-1100.65C733.96,-1088.96 733.78,-1073.19 733.62,-1059.62"/>
+<polygon fill="black" stroke="black" points="737.12,-1059.88 733.51,-1049.92 730.12,-1059.96 737.12,-1059.88"/>
+</g><g id="edge4" class="edge" data-name="changenames-&gt;calculate" data-comment="names-&gt;joingive">
+
+<path fill="none" stroke="black" d="M735.05,-1173.61C734.94,-1166.03 734.81,-1156.9 734.69,-1148.34"/>
+<polygon fill="black" stroke="black" points="738.19,-1148.29 734.55,-1138.34 731.19,-1148.39 738.19,-1148.29"/>
+</g>
+<!-- ccalculate&#45;&gt;names -->
+
+<!-- give -->
+<g id="node11" class="node" pointer-events="visible" data-name="giveout" data-comment="give">
+
+<polygon fill="lavender" stroke="lavender" points="521.96,-854.8 258.62,-854.8 258.62,-818.8 521.96,-818.8 521.96,-854.8"/>
+<text text-anchor="middle" x="390.29" y="-832.6" font-family="Times,serif" font-size="14.00">Set of scores with coordinates of point giver</text>
+</g>
+<!-- j -->
+<g id="edge6" class="edge" data-name="joingive-&gt;giveout" data-comment="j">
+
+<path fill="none" stroke="black" d="M304.07,-891.46C320.63,-881.15 337.85,-870.44 352.5,-861.32"/>
+<polygon fill="black" stroke="black" points="354.28,-864.34 360.92,-856.08 350.58,-858.39 354.28,-864.34"/>
+</g>
+<!-- joingiv -->
+<!-- joinrec -->
+<g id="node12" class="node" pointer-events="visible" data-name="joinrec">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="971.37,-975.1 592.64,-975.1 495.21,-891.7 873.94,-891.7 971.37,-975.1"/>
+<text text-anchor="middle" x="733.29" y="-937.6" font-family="Times,serif" font-size="14.00">Join fields one to one where the point </text>
+<text text-anchor="middle" x="733.29" y="-920.8" font-family="Times,serif" font-size="14.00">recipient matches the country name</text>
+</g><g id="edge14" class="edge" data-name="names-&gt;joinrec" data-comment="joinrec">
+
+<path fill="none" stroke="black" d="M733.29,-1011.65C733.29,-1004.45 733.29,-995.67 733.29,-986.66"/>
+<polygon fill="black" stroke="black" points="736.79,-986.72 733.29,-976.72 729.79,-986.72 736.79,-986.72"/>
+</g>
+<!-- givout -->
+
+<!-- recout -->
+<!-- recout -->
+<g id="node13" class="node" pointer-events="visible" data-name="recout">
+
+<polygon fill="lavender" stroke="lavender" points="849.16,-854.8 565.42,-854.8 565.42,-818.8 849.16,-818.8 849.16,-854.8"/>
+<text text-anchor="middle" x="707.29" y="-832.6" font-family="Times,serif" font-size="14.00">Set of scores with coordinates of point recipient</text>
+</g>
+
+<g id="edge7" class="edge" data-name="joinrec-&gt;recout" data-comment="recout">
+
+<path fill="none" stroke="black" d="M722.04,-891.46C719.68,-882.87 717.24,-873.99 715.04,-866"/>
+<polygon fill="black" stroke="black" points="718.45,-865.22 712.43,-856.5 711.7,-867.07 718.45,-865.22"/>
+</g><g id="edge8" class="edge" data-name="giveout-&gt;joinall" data-comment="recout">
+
+<path fill="none" stroke="black" d="M425.76,-818.43C444.98,-809.02 468.95,-797.28 489.56,-787.19"/>
+<polygon fill="black" stroke="black" points="490.88,-790.44 498.32,-782.9 487.8,-784.16 490.88,-790.44"/>
+</g>
+<!-- S -->
+<!-- allpoints -->
+<!-- allpoints -->
+<g id="node15" class="node" pointer-events="visible" data-name="allpoints">
+
+<polygon fill="lavender" stroke="lavender" points="686.96,-708.8 383.62,-708.8 383.62,-672.8 686.96,-672.8 686.96,-708.8"/>
+<text text-anchor="middle" x="535.29" y="-686.6" font-family="Times,serif" font-size="14.00">Set of scores with coordinates of giver and receiver</text>
+</g><g id="node14" class="node" pointer-events="visible" data-name="joinall" data-comment="allpoints">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="762.5,-781.8 401.06,-781.8 308.08,-745.8 669.52,-745.8 762.5,-781.8"/>
+<text text-anchor="middle" x="535.29" y="-759.6" font-family="Times,serif" font-size="14.00">Join on common point transaction ID</text>
+</g>
+
+<g id="edge9" class="edge" data-name="recout-&gt;joinall" data-comment="allpoints">
+
+<path fill="none" stroke="black" d="M665.21,-818.43C641.89,-808.8 612.68,-796.75 587.86,-786.5"/>
+<polygon fill="black" stroke="black" points="589.5,-783.39 578.93,-782.81 586.83,-789.86 589.5,-783.39"/>
+</g>
+<g id="edge10" class="edge" data-name="joinall-&gt;allpoints" data-comment="allpoints">
+
+<path fill="none" stroke="black" d="M535.29,-745.61C535.29,-738.03 535.29,-728.9 535.29,-720.34"/>
+<polygon fill="black" stroke="black" points="538.79,-720.34 535.29,-710.34 531.79,-720.34 538.79,-720.34"/>
+</g><!-- g -->
+<!-- allpoints&#45;&gt;ge -->
+<g id="edge17" class="edge" data-name="allpoints-&gt;geometry" data-comment="allpoints-&gt;ge">
+
+<path fill="none" stroke="black" d="M535.29,-672.61C535.29,-665.03 535.29,-655.9 535.29,-647.34"/>
+<polygon fill="black" stroke="black" points="538.79,-647.34 535.29,-637.34 531.79,-647.34 538.79,-647.34"/>
+</g>
+<g id="node16" class="node" pointer-events="visible" data-name="geometry" data-comment="allpoints-&gt;ge">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="908.87,-635.8 314.58,-635.8 161.7,-599.8 755.99,-599.8 908.87,-635.8"/>
+<text text-anchor="middle" x="535.29" y="-613.6" font-family="Times,serif" font-size="14.00">Use geometry generator to plot line between giver and receiver</text>
+</g>
+<!-- sym -->
+<!-- geometry&#45;&gt;s -->
+<!-- geometry&#45;&gt;sym -->
+<!-- geometry&#45;&gt;sym -->
+
+<g id="node17" class="node" pointer-events="visible" data-name="sym" data-comment="geometry-&gt;sym">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="729.45,-489.8 420.58,-489.8 341.13,-453.8 649.99,-453.8 729.45,-489.8"/>
+<text text-anchor="middle" x="535.29" y="-467.6" font-family="Times,serif" font-size="14.00">Set line width to point value/20</text>
+</g>
+
+<g id="edge18" class="edge" data-name="geometry-&gt;line" data-comment="geometry-&gt;sym">
+
+<path fill="none" stroke="black" d="M535.29,-599.61C535.29,-592.03 535.29,-582.9 535.29,-574.34"/>
+<polygon fill="black" stroke="black" points="538.79,-574.34 535.29,-564.34 531.79,-574.34 538.79,-574.34"/>
+</g>
+<!-- l -->
+<g id="node18" class="node" pointer-events="visible" data-name="line" data-comment="l">
+
+<polygon fill="lavender" stroke="lavender" points="706.17,-562.8 364.41,-562.8 364.41,-526.8 706.17,-526.8 706.17,-562.8"/>
+<text text-anchor="middle" x="535.29" y="-540.6" font-family="Times,serif" font-size="14.00">Transaction line for every point given in every grand final</text>
+</g>
+<!-- sym&#45;&gt;line -->
+
+<!-- n -->
+<!-- line&#45;&gt;n -->
+<g id="edge19" class="edge" data-name="line-&gt;sym" data-comment="line-&gt;n">
+
+<path fill="none" stroke="black" d="M535.29,-526.61C535.29,-519.03 535.29,-509.9 535.29,-501.34"/>
+<polygon fill="black" stroke="black" points="538.79,-501.34 535.29,-491.34 531.79,-501.34 538.79,-501.34"/>
+</g>
+<g id="node19" class="node" pointer-events="visible" data-name="null" data-comment="line-&gt;n">
+
+<polygon fill="gold" stroke="gold" points="535.29,-416.8 471.2,-398.8 535.29,-380.8 599.38,-398.8 535.29,-416.8"/>
+<text text-anchor="middle" x="535.29" y="-394.6" font-family="Times,serif" font-size="14.00">Points&gt;0</text>
+</g><g id="edge20" class="edge" data-name="sym-&gt;null" data-comment="line-&gt;n">
+
+<path fill="none" stroke="black" d="M535.29,-453.61C535.29,-446.03 535.29,-436.9 535.29,-428.34"/>
+<polygon fill="black" stroke="black" points="538.79,-428.34 535.29,-418.34 531.79,-428.34 538.79,-428.34"/>
+</g>
+<!-- yaer -->
+<g id="node21" class="node" pointer-events="visible" data-name="year" data-comment="yaer">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="686.68,-270.8 445.85,-270.8 383.9,-234.8 624.73,-234.8 686.68,-270.8"/>
+<text text-anchor="middle" x="535.29" y="-248.6" font-family="Times,serif" font-size="14.00">QGIS Temporal control</text>
+</g>
+<!-- n -->
+<g id="edge21" class="edge" data-name="null-&gt;spec" data-comment="n">
+
+<path fill="none" stroke="black" d="M535.29,-380.61C535.29,-373.03 535.29,-363.9 535.29,-355.34"/>
+<polygon fill="black" stroke="black" points="538.79,-355.34 535.29,-345.34 531.79,-355.34 538.79,-355.34"/>
+</g>
+<!-- frames -->
+<!-- year&#45;&gt;f -->
+<g id="edge22" class="edge" data-name="spec-&gt;year" data-comment="year-&gt;f">
+
+<path fill="none" stroke="black" d="M535.29,-307.61C535.29,-300.03 535.29,-290.9 535.29,-282.34"/>
+<polygon fill="black" stroke="black" points="538.79,-282.34 535.29,-272.34 531.79,-282.34 538.79,-282.34"/>
+</g>
+<g id="node22" class="node" pointer-events="visible" data-name="frames" data-comment="year-&gt;f">
+
+<polygon fill="lavender" stroke="lavender" points="629.37,-197.8 441.21,-197.8 441.21,-161.8 629.37,-161.8 629.37,-197.8"/>
+<text text-anchor="middle" x="535.29" y="-175.6" font-family="Times,serif" font-size="14.00">Animation frame for each year</text>
+</g><g id="node20" class="node" pointer-events="visible" data-name="spec" data-comment="year-&gt;f">
+
+<polygon fill="gold" stroke="gold" points="535.29,-343.8 345.18,-325.8 535.29,-307.8 725.4,-325.8 535.29,-343.8"/>
+<text text-anchor="middle" x="535.29" y="-321.6" font-family="Times,serif" font-size="14.00">Specify specific set of countries</text>
+</g>
+<!-- s -->
+<!-- frames&#45;&gt;sti -->
+<g id="edge24" class="edge" data-name="frames-&gt;stitch" data-comment="frames-&gt;sti">
+
+<path fill="none" stroke="black" d="M535.29,-161.65C535.29,-149.96 535.29,-134.19 535.29,-120.62"/>
+<polygon fill="black" stroke="black" points="538.79,-120.92 535.29,-110.92 531.79,-120.92 538.79,-120.92"/>
+<text text-anchor="middle" x="586.23" y="-131.2" font-family="Times,serif" font-size="14.00">Import into GIMP</text>
+</g><g id="edge23" class="edge" data-name="year-&gt;frames" data-comment="frames-&gt;sti">
+
+<path fill="none" stroke="black" d="M535.29,-234.61C535.29,-227.03 535.29,-217.9 535.29,-209.34"/>
+<polygon fill="black" stroke="black" points="538.79,-209.34 535.29,-199.34 531.79,-209.34 538.79,-209.34"/>
+</g>
+<g id="node23" class="node" pointer-events="visible" data-name="stitch" data-comment="frames-&gt;sti">
+
+<polygon fill="antiquewhite" stroke="antiquewhite" points="966.55,-109 280.51,-109 104.03,-73 790.07,-73 966.55,-109"/>
+<text text-anchor="middle" x="535.29" y="-86.8" font-family="Times,serif" font-size="14.00">Stich frames together into animated GIF with 800ms between each frame</text>
+</g>
+<!-- f -->
+<!-- stitch&#45;&gt;f -->
+<g id="edge25" class="edge" data-name="stitch-&gt;final" data-comment="stitch-&gt;f">
+
+<path fill="none" stroke="black" d="M535.29,-72.81C535.29,-65.23 535.29,-56.1 535.29,-47.54"/>
+<polygon fill="black" stroke="black" points="538.79,-47.54 535.29,-37.54 531.79,-47.54 538.79,-47.54"/>
+</g>
+<g id="node24" class="node" pointer-events="visible" data-name="final" data-comment="stitch-&gt;f">
+
+<polygon fill="lavender" stroke="lavender" points="587.56,-36 483.02,-36 483.02,0 587.56,0 587.56,-36"/>
+<text text-anchor="middle" x="535.29" y="-13.8" font-family="Times,serif" font-size="14.00">Final animation</text>
+</g>
+<!-- stitch&#45;&gt;final -->
+
+<!-- syear&#45;&gt;frames -->
+
+</g>
+</svg>
